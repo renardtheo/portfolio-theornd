@@ -636,7 +636,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
+ opacity: 1;
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-info::before {
@@ -772,4 +772,29 @@ section {
 
 #footer .credits {
   font-size: 13px;
+}
+
+/*--------------------------------------------------------------
+# Other
+--------------------------------------------------------------*/
+
+.reduce-size05 {
+  width: 75%; /* Réduit la largeur de l'image */
+  height: auto; /* Garde les proportions intactes */
+  margin: 0 auto; /* Centre l'image dans son conteneur */
+  display: block; /* Assure que l'image reste un élément de bloc */
+}
+
+.reduce-size {
+  width: 50%; /* Réduit la largeur de l'image */
+  height: auto; /* Garde les proportions intactes */
+  margin: 0 auto; /* Centre l'image dans son conteneur */
+  display: block; /* Assure que l'image reste un élément de bloc */
+}
+
+.reduce-size2 {
+  width: 25%; /* Réduit la largeur de l'image */
+  height: auto; /* Garde les proportions intactes */
+  margin: 0 auto; /* Centre l'image dans son conteneur */
+  display: block; /* Assure que l'image reste un élément de bloc */
 }
